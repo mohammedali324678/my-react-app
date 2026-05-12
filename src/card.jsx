@@ -1,10 +1,10 @@
-function Card(props){
+function Card({name, position, nationality}){
     return (
         <div>---
-            <h2>{props.name}</h2>
-            <p>{props.role}</p>
-            <p>{props.college}</p>
-
+            <h2>{name}</h2>
+            <p>{position}</p>
+            <p>{nationality}</p>
+ 
         </div>
     )
 }
